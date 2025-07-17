@@ -1,0 +1,6 @@
+n = int(input())
+arr= set(map(int, input().split()))
+largest=max(arr)
+arr.remove(largest)
+largest2=max(arr)
+print(largest2)
